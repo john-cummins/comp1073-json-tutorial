@@ -54,10 +54,12 @@
 				h2.textContent = topFlavors[i].name;
 				image.setAttribute('src', 'images/' + topFlavors[i].image);
 				// STEP 10f: Build a loop for the ingredients array in the JSON
-
 				// STEP 10g: Append each of the above HTML elements to the ARTICLE element
-
+				article.appendChild(h2);
+				article.appendChild(image);
 				// STEP 10h: Append each complete ARTICLE element to the SECTION element
+				section.appendChild(article);
+
 			}
 		}
 
