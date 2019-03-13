@@ -36,6 +36,28 @@
         "candy sprinkles"
       ],
       "image": "strawberry-sprinkle.svg"
+    },
+    {
+      "name": "Sausage",
+      "calories": 900,
+      "type": "savory meat cone",
+      "ingredients": [
+        "wild animal",
+        "milk chocolate dip",
+        "mysterious sprinkles"
+      ],
+      "image": "ice-cream-xtra1.svg"
+    },
+    {
+      "name": "Two Sausages",
+      "calories": 1800,
+      "type": "savory meat cone",
+      "ingredients": [
+        "wild animal",
+        "Sausage cone",
+        "mysterious sprinkles"
+      ],
+      "image": "ice-cream-xtra2.svg"
     }
   ]
 }
